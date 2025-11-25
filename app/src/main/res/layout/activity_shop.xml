@@ -80,7 +80,6 @@
 
     </LinearLayout>
 
-    <!-- ScrollView for content -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -96,7 +95,6 @@
             android:orientation="vertical"
             android:padding="16dp">
 
-            <!-- SHOP Button -->
             <Button
                 android:id="@+id/btn_shop"
                 android:layout_width="match_parent"
@@ -107,7 +105,7 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <!-- Daily Shop Section -->
+            <!-- Daily Shop-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -132,7 +130,6 @@
                     android:orientation="horizontal"
                     android:weightSum="3">
 
-                    <!-- FREE Item -->
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -166,7 +163,7 @@
                             android:textStyle="bold" />
                     </LinearLayout>
 
-                    <!-- 20 Gems Item 1 -->
+
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -213,7 +210,6 @@
                             android:textStyle="bold" />
                     </LinearLayout>
 
-                    <!-- 20 Gems Item 2 -->
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -261,7 +257,6 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <!-- NEW SKINS Button -->
             <Button
                 android:id="@+id/btn_new_skins"
                 android:layout_width="match_parent"
@@ -273,7 +268,6 @@
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
-            <!-- Coins Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -298,7 +292,6 @@
                     android:orientation="horizontal"
                     android:weightSum="3">
 
-                    <!-- 20 Gems Coin Pack 1 -->
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -345,7 +338,6 @@
                             android:textStyle="bold" />
                     </LinearLayout>
 
-                    <!-- 20 Gems Coin Pack 2 -->
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -392,7 +384,6 @@
                             android:textStyle="bold" />
                     </LinearLayout>
 
-                    <!-- 20 Gems Coin Pack 3 -->
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -440,7 +431,6 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <!-- Gems Section -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -465,7 +455,6 @@
                     android:orientation="horizontal"
                     android:weightSum="3">
 
-                    <!-- 9.99PLN Gems Pack -->
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -500,7 +489,6 @@
                             android:textStyle="bold" />
                     </LinearLayout>
 
-                    <!-- 15.99PLN Gems Pack -->
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -535,7 +523,6 @@
                             android:textStyle="bold" />
                     </LinearLayout>
 
-                    <!-- 21.99PLN Gems Pack -->
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"

@@ -80,7 +80,6 @@
 
     </LinearLayout>
 
-    <!-- Map Container -->
     <FrameLayout
         android:id="@+id/map_container"
         android:layout_width="match_parent"
@@ -90,14 +89,12 @@
         app:layout_constraintBottom_toTopOf="@+id/bottom_nav_placeholder"
         app:layout_constraintTop_toBottomOf="@+id/header_section">
 
-        <!-- Fragment dla Google Maps lub MapView -->
         <fragment
             android:id="@+id/map_fragment"
             android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-        <!-- Floating Action Button - Lokalizacja użytkownika -->
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab_my_location"
             android:layout_width="wrap_content"
